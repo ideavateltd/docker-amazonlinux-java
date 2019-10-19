@@ -5,3 +5,4 @@ Build tools:
 * git
 * maven
 * docker-cli
+* nodejs
