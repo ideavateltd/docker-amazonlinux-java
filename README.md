@@ -1,1 +1,1 @@
-# docker-amazonlinux-java
+# Amazon Linux 2 + OpenJDK 8
