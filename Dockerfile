@@ -1,9 +1,6 @@
 FROM ideavate/amazonlinux:2
 
-RUN amazon-linux-extras enable corretto8
-
 RUN yum -y upgrade \
-  && yum -y install java-1.8.0-amazon-corretto-devel unzip
+  && yum -y install java-11-amazon-corretto unzip
 
-
-ENV JAVA_HOME="/usr/lib/jvm/java"
+ENV JAVA_HOME="/usr/lib/jvm/java-11-amazon-corretto.x86_64"
