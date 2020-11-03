@@ -1,4 +1,4 @@
-FROM ideavate/amazonlinux-java:openjdk-8
+FROM ideavate/amazonlinux-java:corretto-8
 
 RUN yum upgrade -y
 
