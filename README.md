@@ -1,4 +1,4 @@
-# Amazon Linux 2 + Amazon Corretto 8 + Build Tools
+# Amazon Linux 2 + Amazon Corretto 11 + Build Tools
 
 Build tools:
 
