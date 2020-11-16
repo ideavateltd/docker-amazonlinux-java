@@ -1,1 +1,1 @@
-# Amazon Linux 2 + Amazon Corretto 8
+# Amazon Linux 2 + Amazon Corretto 11
