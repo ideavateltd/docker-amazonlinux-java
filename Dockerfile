@@ -6,7 +6,7 @@ RUN yum upgrade -y
 RUN amazon-linux-extras install -y docker
 
 # Install NodeJS
-RUN curl --silent --location https://rpm.nodesource.com/setup_10.x | bash \
+RUN curl --silent --location https://rpm.nodesource.com/setup_14.x | bash \
  && yum install -y nodejs
 
 # Install git
