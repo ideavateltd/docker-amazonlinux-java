@@ -2,6 +2,11 @@ FROM ideavate/amazonlinux-java:corretto-11
 
 RUN yum upgrade -y
 
+# Install aws tools
+RUN yum install -y python3-pip
+RUN pip3 install --upgrade pip
+RUN pip3 install awsebcli awscli --upgrade
+
 # Install docker
 RUN amazon-linux-extras install -y docker
 
